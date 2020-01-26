@@ -22,15 +22,6 @@ router.get('/', async (req, res) => {
           postsObj[p.id]=p;
         }
       });
-      // const sortedRes = sortPosts(response, sortBy, direction); // sort the response
-      // const sortedRes = response.sort((a,b) => {
-      //   return sortingFn(a[sortBy],b[sortBy],direction);
-      // });
-      // if (posts.length > 0) { // sort and push the new posts in 
-      //   posts = mergeSort(posts, sortedRes, sortBy, direction); // merge the two arrays
-      // } else { // if its the first array of posts we fetched
-      //   posts = sortedRes// sort the first arrays with directions
-      // }
     } catch (err) { // handle errors
       // Some server error
       res.status(500).send({
