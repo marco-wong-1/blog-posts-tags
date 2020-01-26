@@ -1,7 +1,7 @@
 # Blog Posts API
 
-`https://blog-posts-fake-api.herokuapp.com/api/posts?tag=` is a fake API that fetches all posts with a certain tag. 
-This API allows the user to search for multiple tags in one call, as well as being able to specify what to sort the result by and in what order. 
+`https://blog-posts-fake-api.herokuapp.com/api/posts?tag=` is a fake external API that fetches all posts with a certain tag. <br />
+This Blog Posts API allows the user to search for multiple tags in one call, as well as being able to specify what to sort the result by and in what order. 
 
 ## API
 
